@@ -13,7 +13,7 @@ def photos():
     return render_template('photos.html')
 @app.route("/blog")
 def blog():
-    DATABASE = 'db1'
+    DATABASE = 'db.sqlite'
     con = sqlite3.connect(DATABASE)
     #con.row_factory = sqlite3.Row
     cur = con.cursor()
