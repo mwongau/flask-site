@@ -15,7 +15,7 @@ def photos():
 def blog():
     DATABASE = 'db.sqlite'
     con = sqlite3.connect(DATABASE)
-    #con.row_factory = sqlite3.Row
+    con.row_factory = sqlite3.Row
     cur = con.cursor()
     cur.execute("select * from tb1 order by id desc")
     rows = cur.fetchall()  
