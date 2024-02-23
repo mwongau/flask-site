@@ -14,7 +14,6 @@ def photos():
 @app.route("/privacy")
 def privacy():
     return render_template('privacy.html')     
-
 @app.route("/blog")
 def blog():
     DATABASE = 'db.sqlite'
