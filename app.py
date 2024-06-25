@@ -5,15 +5,11 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return render_template('home.html')
-@app.route("/cv")
-def cv():
-    return render_template('cv.html')
+
 @app.route("/photos")
 def photos():
     return render_template('photos.html') 
-@app.route("/privacy")
-def privacy():
-    return render_template('privacy.html')     
+ 
 @app.route("/blog")
 def blog():
     # for testing in local PC, DATABASE = 'db.sqlite'
