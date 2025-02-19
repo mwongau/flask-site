@@ -9,6 +9,10 @@ def home():
 @app.route("/photos")
 def photos():
     return render_template('photos.html') 
+    
+@app.route("/privacy")
+def privacy():
+    return render_template('privacy.html') 
  
 @app.route("/blog")
 def blog():
