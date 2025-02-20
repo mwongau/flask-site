@@ -13,9 +13,7 @@
     <h3>My personal site</h3></div>
     </div>
 	
-    <nav class="navbar navbar-expand-sm">
-    <div class="container-fluid">
-    <ul class="navbar-nav">
+    <ul class="nav">
       <li class="nav-item">
         <a class="nav-link" href="{{ url_for('home') }}"><b>Home</b></a>
       </li>
@@ -26,8 +24,6 @@
         <a class="nav-link" href="{{ url_for('photos') }}"><b>Photos</b></a>
       </li>
     </ul>
-    </div>
-    </nav>
 	 
     <br />
     <div id="content">{% block content %}{% endblock %}</div>

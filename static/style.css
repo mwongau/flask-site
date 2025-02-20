@@ -1,8 +1,8 @@
 #header { background-color: blanchedalmond; padding: 9px; }
 body { font-family: Arial, sans-serif; }
-nav { background-color: whitesmoke;}
-nav a { text-decoration: none; } 
-nav a:hover { color: green; }
+.nav { background-color: whitesmoke;}
+.nav a { text-decoration: none; } 
+.nav a:hover { color: green; }
 #notice { background-color: whitesmoke; }
 
 
